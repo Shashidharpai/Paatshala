@@ -1,5 +1,5 @@
-#This is the workspace for Paatshala
-#This will have four parts
+# This is the workspace for Paatshala
+# This will have four parts
 
 1)Assignment or subject code(Assigned to Mukund)
 2)Live Classes(Assigned to Sumanth)
