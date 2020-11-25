@@ -1,10 +1,10 @@
-
+import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>This is the app for Paatshala home page Paatshala.xyz</h1>
+     <h1>This is for paatshal workspace</h1>
     </div>
   );
 }
