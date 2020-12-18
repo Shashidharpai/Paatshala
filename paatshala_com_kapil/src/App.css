@@ -1,19 +1,16 @@
 *{
   margin:0px;
 }
-.App{
-  background-color: black;
-}
 .header{
-  background-color: #FF3232;
+  background-color:#e6e6e6;
   display: flex;
   align-items: center;
-  height: 65px;
+  height: 85px;
   justify-content: space-between;
 }
 .header_logo{
-  padding-left: 20px;
-  color: white;
+  
+  width: 125px;
 
 }
 .header_side{
@@ -21,7 +18,7 @@
 
 }
 .header_side_button{
-  background-color: white;
+  background-color: #FBF489;
   border: none;
   outline: none;
   border-radius: 5px;
@@ -29,6 +26,10 @@
   width: 70px;
   font-size: 17px;
   font-weight: bold;
+}
+.header_side_button:hover{
+  background-color: black;
+  color: white;
 }
 .middle_1{
   background-color: greenyellow;
@@ -64,6 +65,90 @@
 .footer{
   margin-top: 50vh;
   background-color: blue;
+}
+.userphoto{
+  height: 60px;
+  border-radius: 50%;
+  
+}
+.header_side_loggedin{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 100px;
+  padding-left: 20px;
+  font-weight: bold;
+  position: relative;
+}
+.header_logoutdropdown{
+display: none;
+  
+}
+.header_side_loggedin:hover .header_logoutdropdown{
+  position: absolute;
+  top: 60px;
+  right: 1px;
+  border-radius: 10px;
+  display: inline;
+  background-color:white;
+  width: 100%;
+  text-align: center;
+}
+.header_signout_button{
+  width: 90%;
+  margin: 20px 10px 20px 10px ;
+  background-color: black;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: none;
+  outline: none;
+  align-items: center;
+  height: 50px;
+  text-align: center;
+  border-radius: 10px;
+}
+.loginoptions{
+  display: none;
+}
+.usernologgedin:hover .loginoptions{
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: white;
+  padding-left: 10px;
+  padding-top: 10px;
+  display:inline;
+  position: absolute;
+  width: 200px;
+  top: 58px;
+  right: 60px;
+}
+.googlelogin_button{
+  width: 90%;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  border: 2px solid black;
+  outline: none;
+  background-color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  border-radius: 10px;
+
+}
+.facebooklogin_button{
+  background-color: white;
+  align-items: center;
+  width: 90%;
+  display: flex;
+  border: 2px solid black;
+  outline: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  border-radius: 10px;
 }
 @media screen and (max-width:750px){
   .middle_1_row{

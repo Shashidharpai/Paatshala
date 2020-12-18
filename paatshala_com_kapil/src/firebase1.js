@@ -1,4 +1,4 @@
-import firebase from "firebase/app"
+import firebase from "firebase"
 import "firebase/auth"
 const app=firebase.initializeApp({
     apiKey: process.env.REACT_APP_FIREBASE_APIKEY,
@@ -11,5 +11,6 @@ const app=firebase.initializeApp({
     measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENTID
 
 })
-export const auth=app.auth()
-export default app
+export default app;
+export const googleprovider = new firebase.auth.GoogleAuthProvider();
+export const facebookprovider= new firebase.auth.FacebookAuthProvider();
